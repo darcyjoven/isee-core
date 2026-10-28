@@ -19,8 +19,8 @@
   ..for (i, row) in data.rows.enumerate() {
     (
       [#metadata((id: "row", index: i + 1))#(i + 1)],
-      row.name,
-      row.qty,
+      [#row.name],
+      [#row.qty],
       num(row.amount),
     )
   },
