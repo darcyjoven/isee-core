@@ -15,7 +15,7 @@
 #table(
   columns: (auto, 1fr, auto, auto),
   align: (center, left, right, right),
-  table.header([#], [名称], [数量], [金额]),
+  table.header([序号], [名称], [数量], [金额]),
   ..for (i, row) in data.rows.enumerate() {
     (
       [#metadata((id: "row", index: i + 1))#(i + 1)],
