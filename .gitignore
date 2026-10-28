@@ -1,0 +1,6 @@
+// 字体与产物不进版本库（字体从 isee-attachment 的 fonts.zip 解压到 core/fonts）
+fonts/
+*.ttf
+*.ttc
+*.otf
+*.pdf

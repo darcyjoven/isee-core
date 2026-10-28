@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sync package",
+            "type": "process",
+            "command": "./isee-cli.exe",
+            "args": [
+                "sync"
+            ],
+            "icon": {
+                "id": "package",
+                "color": "terminal.ansiYellow"
+            },
+        }
+    ]
+}

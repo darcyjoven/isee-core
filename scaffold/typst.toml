@@ -1,0 +1,14 @@
+[sync]
+exclude = [
+    ".git",
+    "*.exe",
+    "*.pdf",
+    "*.dll",
+    "archive",
+    "*.md",
+    "typst.toml",
+]
+target = "user@host:~/typst"
+force = false
+preview = true
+gitignore = false

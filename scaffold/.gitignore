@@ -1,0 +1,11 @@
+*.pdf
+*.ttf
+*.ttc
+*.otf
+attachment
+archive
+projects
+.workbuddy
+.agents
+.codebuddy
+*.exe
